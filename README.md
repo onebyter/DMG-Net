@@ -47,8 +47,11 @@ python train_acdc.py      # ACDC, 4 classes, img_size 224
 python train_polyp.py     # Polyp, 1 class, img_size 352
 ```
 
-All hyperparameters (batch size, learning rate, number of epochs, random seed
-`1234`, backbone `R50-ViT-B_16`) are set as script defaults.
+All hyperparameters (batch size, learning rate, number of epochs, backbone
+`R50-ViT-B_16`) are set as script defaults. The default single-run seed is
+`1234`; the five-seed means reported in Tables 8, 9 and 12 (and in the
+hyperparameter and backbone sensitivity analyses) use seeds
+`1234, 2024, 2025, 42, 999`.
 
 ## Testing
 
