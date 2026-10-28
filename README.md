@@ -34,7 +34,8 @@ TransUNet release; place it under `../model/vit_checkpoint/imagenet21k/`.
 Follow the TransUNet preprocessing to obtain the `npz`/`npy` volumes:
 
 - **Synapse**: `../data/Synapse/` (train volumes + `test_vol_h5`), splits in `lists/lists_Synapse/`
-- **ACDC**: `../data/ACDC/` with `train_slices.list`, `val.list`, `test.list`
+- **ACDC**: `../data/ACDC/`; the splits `train_slices.list`, `val.list`, `test.list`
+  are provided in `lists/lists_ACDC/` (copy them into your ACDC data directory)
 - **Polyp**: `../data/polyp/TrainDataset/{images,masks}` and
   `../data/polyp/TestDataset/{CVC-ClinicDB,Kvasir,CVC-ColonDB,CVC-300}/{images,masks}`
 
